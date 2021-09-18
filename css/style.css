@@ -1,0 +1,40 @@
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	width: 1000px;
+	align-items: center;
+	background-color: #f0f2f5;
+}
+
+.about-container {
+	display: inline;
+}
+
+.started-container {
+	display: inline;
+}
+
+.radio-questions-container {
+	display: inline;
+}
+
+.survey-share-container {
+	display: inline;
+}
+
+.button-container {
+	display: inline;
+}
+
+.textbox {
+	display: inline;
+}
+
+.submit-container {
+	display: inline;
+}
+
+.share-container {
+
+}
+
