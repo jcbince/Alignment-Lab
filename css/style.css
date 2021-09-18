@@ -1,9 +1,30 @@
+.body {
+	display: inline;
+}
+
+p {
+	font-size: 12px;
+}
+
+h1 {
+	font-size: 22px;
+}
+
+h2 {
+	font-size: 18px;
+}
+
 .flex-container {
 	display: flex;
 	flex-direction: column;
 	width: 1000px;
 	align-items: center;
 	background-color: #f0f2f5;
+}
+
+.agreement-container{
+	display: inline;
+	margin: 20px;
 }
 
 .about-container {
@@ -15,7 +36,7 @@
 }
 
 .radio-questions-container {
-	display: inline;
+	display: inline-block;
 }
 
 .survey-share-container {
@@ -35,6 +56,6 @@
 }
 
 .share-container {
-
+	display: inline;
 }
 
