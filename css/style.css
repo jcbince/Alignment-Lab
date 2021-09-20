@@ -160,7 +160,8 @@ label, input, select{
 /* Radio Questions Container */
 .radio-questions-container{
 	display: flex;
-	flex-direction: column;;
+	flex-direction: column;
+	margin: 50px;
 }
 .form-row {
 	display: flex;
@@ -202,7 +203,6 @@ label, input, select{
 
 	
 }
-
 
 .share-container {
 	display: flex;
