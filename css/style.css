@@ -124,31 +124,37 @@ h2 {
 	background: darkred;
 }
 
+/* About Conatiner */
+
 .about-container {
-	display: inline;
-	margin: 20px 40px;
-	flex-wrap:wrap;
+	display: flex;
+
 }
+
+
+label, input, select{
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
 
 /* Started Container */
 .started-container {
 	display: inline;
 }
 
-.started-title {
-	padding-left: 25px;
-}
 .started-textboxes {
 	display: flex;
-	flex-direction: row;
-	width: 25%;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
 	
 }
 
-
-/* Radio Question Container */
-.radio-questions-container {
-	display: inline-block;
+/* Textbox */
+.textbox {
+	flex: 1 1 auto;
+	flex-direction: column;
 }
 
 .form-row {
@@ -164,26 +170,31 @@ h2 {
 }
 
 
-/* Textbox */
-.textbox {
-	display: inline;
-}
+
 
 /* Submit Container */
 .submit-container {
-	display: inline;
+	display:flex;
+	padding: 20px;
+	flex-direction: column;
+	align-items: center;
 }
 
 /* Button Container */
 .button-container {
 	display: flex;
+	flex-direction: column;
+	justify-items: center;
+
 	
 }
 
+
 .share-container {
 	display: flex;
-	width: 50%;
-	justify-content: flex-start;
+	flex-basis: auto;
+	width: 50px;
+	height: 75px;
 }
 
 .btn-share {
