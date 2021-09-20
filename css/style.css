@@ -3,17 +3,20 @@
 }
 
 p {
-	font-size: 12px;
+	font-size: 14px;
 }
 
 h1 {
-	font-size: 22px;
+	font-size: 36px;
+	font-weight: bold;
 }
 
 h2 {
-	font-size: 18px;
+	font-size: 23px;
+	font-weight: bold;
 }
 
+/* Flex Container */
 .flex-container {
 	display: flex;
 	flex-direction: column;
@@ -22,35 +25,109 @@ h2 {
 	background-color: #f0f2f5;
 }
 
+.title{
+	color: #4f4f4f;
+}
+
+
+/* Agreement-container */
+
 .agreement-container{
 	display: inline;
 	margin: 20px;
+	padding: 10px;
+	background: #fbf0f1;
+	border: solid 2px #f7d0d4;
+	border-radius: 5px;
+}
+.agreement-container h2 {
+	color: #ed5565;
+	font-size: 23px;
+	font-weight: bold;
+}
+.wrap {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-width: 100vh;
 }
 
+.item {
+	padding: 10px;
+}
+
+.btn {
+	outline: none;
+	display: block;
+	border: 0;
+	font-weight: bold;
+	color: white;
+	line-height: 1;
+	padding: 15px 30px;
+	border-radius: 5px;
+	background: #ed5565 ;
+	cursor: pointer;
+	transition: all 0.3s linear;
+}
+
+.btn:hover, .btn:focus {
+	background: red;
+}
+
+
+.btn:active {
+	background: darkred;
+}
+
+.btn-outline {
+	outline: none;
+	display: block;
+	border: 0;
+	font-weight: bold;
+	color: white;
+	line-height: 1;
+	padding: 15px 30px;
+	border-radius: 5px;
+	background: #a4a9ae ;
+	cursor: pointer;
+	transition: all 0.3s linear;
+}
+/* About container */
 .about-container {
 	display: inline;
 }
 
+
+/* Started Container */
 .started-container {
 	display: inline;
 }
 
+
+/* Radio Question Container */
 .radio-questions-container {
 	display: inline-block;
 }
 
+
+/* Survey Share Container */
 .survey-share-container {
 	display: inline;
 }
 
+
+/* Button Container */
 .button-container {
 	display: inline;
 }
 
+
+/* Textbox */
 .textbox {
 	display: inline;
 }
 
+/* Submit Container */
 .submit-container {
 	display: inline;
 }
