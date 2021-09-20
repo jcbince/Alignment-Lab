@@ -1,5 +1,7 @@
 .body {
-	display: inline;
+	display: flex;
+	max-width: 100%;
+	
 }
 
 p {
@@ -23,6 +25,9 @@ h2 {
 	width: 1000px;
 	align-items: center;
 	background-color: #f0f2f5;
+	margin: auto ;
+	padding: 25px;
+
 }
 
 .title{
@@ -92,15 +97,35 @@ h2 {
 	cursor: pointer;
 	transition: all 0.3s linear;
 }
-/* About container */
-.about-container {
-	display: inline;
+
+.btn-outline:hover, .btn-outline:focus {
+	background: darkslategray;
 }
 
+
+.btn-outline:active {
+	background: darkred;
+}
+
+.about-container {
+	display: inline;
+	margin: 20px 40px;
+	flex-wrap:wrap;
+}
 
 /* Started Container */
 .started-container {
 	display: inline;
+}
+
+.started-title {
+	padding-left: 25px;
+}
+.started-textboxes {
+	display: flex;
+	flex-direction: row;
+	width: 25%;
+	
 }
 
 
@@ -109,16 +134,16 @@ h2 {
 	display: inline-block;
 }
 
+.form-row {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 5px;
+}
 
 /* Survey Share Container */
 .survey-share-container {
-	display: inline;
-}
+	display: flex;
 
-
-/* Button Container */
-.button-container {
-	display: inline;
 }
 
 
@@ -132,7 +157,41 @@ h2 {
 	display: inline;
 }
 
-.share-container {
-	display: inline;
+/* Button Container */
+.button-container {
+	display: flex;
+	
 }
 
+.share-container {
+	display: flex;
+	width: 50%;
+	justify-content: flex-start;
+}
+
+.btn-share {
+	outline: none;
+	display: flex;
+	border: 0;
+	align-items: center;
+	font-weight: bold;
+	color: white;
+	line-height: 1;
+	border-radius: 5px;
+	background: #ed5565 ;
+	cursor: pointer;
+	transition: all 0.3s linear;
+	margin: 5px;
+}
+
+.fb{
+	background-color: #ed5565;
+}
+
+.insta {
+	background-color: #5d9cec;
+}
+
+.google {
+	background-color: #ee5567;
+}
